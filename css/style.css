@@ -1,0 +1,260 @@
+body{
+  width: 1440px;
+  margin: auto;
+}
+
+.header {
+}
+.container {
+  width: 1100px;
+  margin: auto;
+}
+.logo-link {
+width: 227px;
+height: 59px;
+}
+.logo {
+
+}
+.nav {
+  width: 610px;
+  /* height: 40px; */
+}
+.nav-list {
+  width: 1005px;
+  height: 100%;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-item-current {
+  border-bottom: 3px solid  #FF7500;
+
+
+}
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  width: 92px;
+}
+.register-link {
+  width: 159;
+  height: 40px;
+   text-decoration: none;
+}
+.register-link span{
+width: 107px;
+height: 15px;
+  font-size: 13px;
+font-weight: 700;
+color: #FFFFFF;
+background-color: #FF7500;
+}
+.main {
+}
+.hero {
+
+  background-color: #252420;
+display: flex;
+justify-content: space-around;
+width: 1440px;
+height: 488px;
+
+}
+.hero-box{
+  width: 387px;
+  height: 328px;
+}
+.hero-ttle {
+  font-family: Roboto Condensed;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #FFFFFF;
+
+
+}
+.hero-content {
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.hero-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #FFFFFF;
+  background-color: #FF7500;
+
+
+}
+.hero-img {
+  /* box-shadow: 24px 24px 0px 0px #FF750099; */
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
+
+}
+.features {
+}
+.features-title {
+  font-family: Roboto Condensed;
+font-size: 72px;
+font-weight: 700;
+line-height: 86px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #000000;
+width: 435px
+height: 172px
+
+
+}
+.features-list {
+}
+.features-item {
+  list-style: none;
+}
+.item-features {
+}
+/* .item-features-icon {
+  width: 100px;
+  height: px;
+  background: #FF750033;
+  border-radius: 50%
+
+
+} */
+.item-features-title {
+  font-family: Roboto Condensed;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #000000;
+}
+.item-features-content {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+color: #000000;
+
+}
+.item-featuress {
+}
+.promo-tags {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  width: 1100px;
+  height: 419px;
+  border-radius:  12px;
+}
+.tags-promo  div{
+  width: 440px;
+  height: 291px;
+}
+.tags-promo-title {
+  font-family: Roboto Condensed;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #FFFFFF;
+}
+.tags-promo-content-first {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+color: #FFFFFF;
+
+
+}
+.tags-promo-content-second {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.tags-promo-content-second strong{
+  color: #FF7500;
+}
+.tags-promo-link {
+  background-color: #FF7500;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.tags-promo-img {
+  border-radius: 12px;
+}
+.footer {
+  background-color: #F8F8F8;
+
+}
+.footer-tags {
+  display: flex;
+  justify-content: space-between;
+}
+.tags-footer {
+}
+.tags-footer-list {
+  width: 104px;
+  height: 24px;
+  display: flex;
+justify-content: space-between;
+}
+.tags-footer-item {
+  width: 24px;
+  height: 24px;
+  list-style: none  ;
+}
+.tags-footer-socials-link {
+}
+.tags-footer-icon {
+}
+.footer-entry {
+  display: flex;
+  justify-content: space-between;
+}
+.entry-footer {
+}
+.entry-footer-list {
+
+}
+.entry-footer-item {
+  list-style: none;
+  width: 224px;
+}
+.entry-footer-link {
+  text-decoration: none;
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+color:  #252420;
+
+}
