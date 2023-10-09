@@ -3,7 +3,7 @@ body{
   margin: auto;
 }
 
-.header {
+.site-header {
 }
 .container {
   width: 1100px;
@@ -37,18 +37,21 @@ height: 59px;
   color: #000000;
   width: 92px;
 }
-.register-link {
+.main-link{
   width: 159;
   height: 40px;
    text-decoration: none;
+  line-height: 15px;
+  color: #FFFFFF;
+  background-color: #FF7500;
 }
 .register-link span{
 width: 107px;
 height: 15px;
   font-size: 13px;
 font-weight: 700;
-color: #FFFFFF;
-background-color: #FF7500;
+
+
 }
 .main {
 }
@@ -59,20 +62,26 @@ display: flex;
 justify-content: space-around;
 width: 1440px;
 height: 488px;
+color: #FFFFFF;
+
 
 }
 .hero-box{
-  width: 387px;
-  height: 328px;
+  width: 390px;
+
 }
-.hero-ttle {
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+}
+.hero-heading {
   font-family: Roboto Condensed;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #FFFFFF;
 
 
 }
@@ -83,10 +92,10 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.5px;
 text-align: left;
-color: #FFFFFF;
+
 
 }
-.hero-link {
+.main-link {
   text-decoration: none;
   font-family: Roboto;
   font-size: 13px;
@@ -95,6 +104,7 @@ color: #FFFFFF;
   letter-spacing: 0.5px;
   text-align: left;
   color: #FFFFFF;
+
   background-color: #FF7500;
 
 
@@ -108,7 +118,7 @@ color: #FFFFFF;
 }
 .features {
 }
-.features-title {
+.features-heading {
   font-family: Roboto Condensed;
 font-size: 72px;
 font-weight: 700;
@@ -125,8 +135,15 @@ height: 172px
 }
 .features-item {
   list-style: none;
+  w340
 }
 .item-features {
+}
+.feature-icon-wrapper{
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 117, 0, 0.2);
+
 }
 /* .item-features-icon {
   width: 100px;
@@ -140,7 +157,7 @@ height: 172px
   font-family: Roboto Condensed;
 font-size: 24px;
 font-weight: 700;
-line-height: 29px;
+line-height: 1.2;
 letter-spacing: 0.5px;
 text-align: left;
 color: #000000;
@@ -149,7 +166,7 @@ color: #000000;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5 ;
   letter-spacing: 0.5px;
   text-align: left;
 color: #000000;
@@ -169,6 +186,9 @@ color: #000000;
   width: 440px;
   height: 291px;
 }
+.promo-wrapper{
+width: 440px;
+}
 .tags-promo-title {
   font-family: Roboto Condensed;
 font-size: 40px;
@@ -182,7 +202,7 @@ color: #FFFFFF;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0px;
   text-align: left;
 color: #FFFFFF;
@@ -193,7 +213,7 @@ color: #FFFFFF;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.5px;
   text-align: left;
   color: #FFFFFF;
@@ -208,6 +228,10 @@ color: #FFFFFF;
 }
 .tags-promo-img {
   border-radius: 12px;
+object-fit: cover;
+width: 440px;
+height: 440px;
+
 }
 .footer {
   background-color: #F8F8F8;
@@ -233,6 +257,11 @@ justify-content: space-between;
 .tags-footer-socials-link {
 }
 .tags-footer-icon {
+}
+.site-footer-divider{
+  background-color: rgba(37, 36, 32, 0.5);
+  height: 2px;
+
 }
 .footer-entry {
   display: flex;
