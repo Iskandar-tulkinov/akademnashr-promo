@@ -1,6 +1,10 @@
 body{
   width: 1440px;
   margin: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5;
 }
 /* SITE_HEADER */
 .site-header {
@@ -78,11 +82,11 @@ color: #FFFFFF;
   background-color: #FF7500;
 }
 .hero-heading {
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0.5px;
+  line-height: 1.2;
+
   text-align: left;
 
 
@@ -122,7 +126,7 @@ text-align: left;
 .features {
 }
 .features-heading {
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 font-size: 72px;
 font-weight: 700;
 line-height: 86px;
@@ -157,27 +161,17 @@ height: 172px
 
 } */
 .item-features-title {
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 1.2;
-letter-spacing: 0.5px;
+
 text-align: left;
 color: #000000;
 }
-.item-features-content {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5 ;
-  letter-spacing: 0.5px;
-  text-align: left;
-color: #000000;
 
-}
-.item-featuress {
-}
 
+/* PROMO */
 .promo-tags {
   background-color: #000000;
   display: flex;
@@ -194,32 +188,20 @@ color: #000000;
 width: 440px;
 }
 .tags-promo-title {
-  font-family: Roboto Condensed;
+  font-family: "Roboto Condensed","Arial", sans-serif;
 font-size: 40px;
 font-weight: 700;
 line-height: 48px;
-letter-spacing: 0.5px;
 text-align: left;
 color: #FFFFFF;
 }
 .tags-promo-content-first {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0px;
-  text-align: left;
+
 color: #FFFFFF;
 
 
 }
 .tags-promo-content-second {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  text-align: left;
   color: #FFFFFF;
 }
 .tags-promo-content-second strong{
@@ -237,6 +219,7 @@ width: 440px;
 height: 440px;
 
 }
+/* SITE_FOOTER */
 .footer {
   background-color: #F8F8F8;
 
