@@ -65,7 +65,8 @@ font-weight: 700;
 
   background-color: #252420;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+align-items: center;
 width: 1440px;
 height: 488px;
 color: #FFFFFF;
@@ -175,7 +176,8 @@ color: #000000;
 .promo-tags {
   background-color: #000000;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   width: 1100px;
   height: 419px;
   border-radius:  12px;
