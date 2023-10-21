@@ -3,7 +3,7 @@
   outline-style: dashed;
   outline-width: 3px;
   outline-offset: 3px;
-  box-sizing: border-box;
+
 }
 
 
@@ -14,7 +14,7 @@ margin: 0;
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0.5px;
-
+ box-sizing: border-box;
 }
 /* CONTAINER */
 .container{
